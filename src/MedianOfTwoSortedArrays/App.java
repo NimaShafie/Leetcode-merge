@@ -8,6 +8,6 @@ public class App {
 
         MedianOfTwoSortedArrays solObj = new MedianOfTwoSortedArrays();
         Double medianSol = solObj.findMedianSortedArrays(nums1, nums2);
-        System.out.println("Length is = " + medianSol);
+        System.out.println("Median is = " + medianSol);
     }
 }
