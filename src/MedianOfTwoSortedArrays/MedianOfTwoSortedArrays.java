@@ -19,8 +19,10 @@ class MedianOfTwoSortedArrays {
         int nums1Length = nums1.length;
         int nums2Length = nums2.length;
 
-        ArrayList<Integer> newNums = new ArrayList<>((nums1Length + nums2Length));  // initalize the arrayList capacity in advance for better performance
-        if(nums1Length != 0) for(int i = 0; i < nums1Length; i++) newNums.add(nums1[i]);    // only add to the combined array if the original array has data in it
+        // initalize the arrayList capacity in advance for better performance
+        ArrayList<Integer> newNums = new ArrayList<>((nums1Length + nums2Length)); 
+        // only add to the combined array if the original array has data in it
+        if(nums1Length != 0) for(int i = 0; i < nums1Length; i++) newNums.add(nums1[i]);    
         if(nums2Length != 0) for(int i = 0; i < nums2Length; i++) newNums.add(nums2[i]);
         if(nums1Length == 0 && nums2Length == 0) return newNums;
         Collections.sort(newNums);

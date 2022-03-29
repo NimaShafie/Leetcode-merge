@@ -1,5 +1,7 @@
 package RemoveNthNodeFromEndOfList;
 
+import RemoveNthNodeFromEndOfList.App.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -13,6 +15,7 @@ package RemoveNthNodeFromEndOfList;
 
 class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        
+
+        return head;
     }
 }

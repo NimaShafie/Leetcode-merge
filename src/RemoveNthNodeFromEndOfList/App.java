@@ -28,11 +28,12 @@ public class App {
         //RemoveNthNodeFromEndOfList obj = new RemoveNthNodeFromEndOfList();
         //ListNode Node = new ListNode(1);
         LinkedList<Integer> linkList = new LinkedList<>();
-        linkList.add(1);
+        linkList.add(1);    // we'll use this as the head
         linkList.add(2);
         linkList.add(3);
         //for(LinkedList<Integer> list : linkList) System.out.println()
-        linkList.get(0);
+        //ListNode head = linkList;
+        System.out.println("Content\n" + linkList);
 
         Scanner sc = new Scanner(System.in);
 
