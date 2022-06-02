@@ -26,3 +26,6 @@ hs_err_pid*
 
 # ignore .exe files from cpp's
 cpp/*.exe
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
