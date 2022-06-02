@@ -1,2 +1,4 @@
-# Leetcode-merge
-Attempting to merge all leetcode problems into this one repo.
+Contains multiple langagues: <br/>
+C++ <br/>
+Java <br/>
+Python <br/>
